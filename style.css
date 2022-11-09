@@ -1,12 +1,19 @@
 /* Basic page style */
 
 body {
-    display: grid;
     margin: 0px;
+    height: fit-content;
     font-family: sans-serif;
     justify-content: center;
-    color: #eee;
-    background-image: linear-gradient(#251179f2,#2b56bbd9);
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* color: #eee;
+    background-image: linear-gradient(#251179f2,#2b56bbd9); */
 }
 
 header {
@@ -23,15 +30,14 @@ header {
 }
 
 footer {
-    top: 0;
-    left: 0;
-    right: 0;
     font-family: monospace;
     text-align: center;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem #000000d9;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    color: #eee;
+    background-image: linear-gradient(#2b56bbd9,#251179f2);
+    box-shadow: 1px 2px 5px 2px #000000b2;
 }
 
 
@@ -50,34 +56,16 @@ header li {
 
 /* Body properties */
 
-.section-card {
-    display: flex;
-    height: fit-content;
-    width: 150vh;
-    margin: 15px;
-    margin-top: 30px;
-    border: 0px;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    background-image: linear-gradient(rgba(58, 28, 107, 0.95),rgba(60, 122, 255, 0.651));
-    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem #2b1b47d9;
-}
-
 #profile-img {
     margin: 5px;
     width: 250px;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 section h1 {
     font-size: 3em;
     font-family: monospace;
+    text-decoration: underline;
 }
 
 section h2 {
@@ -86,20 +74,41 @@ section h2 {
 }
 
 #home {
-    margin-top: 70px;
+    padding: 10%;
+
+    color: #eee;
+    background-image: linear-gradient(#251179f2,#2b56bbd9);
+}
+
+#about {
+    margin-top: 10%;
+    padding: 10%;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 0.3rem -0.03rem #000000d9;
+}
+
+#projects {
+    padding: 5%;
+    color: #eee;
+    background-image: linear-gradient(#2b56bbd9,#251179f2);
+}
+
+#contact {
+    margin: 0.5%;
 }
 
 .contact-card {
-    display: inline-table;
+    display: inline;
     margin-left: 5px;
-    height: 10vh;
+    height: 8vh;
     border-radius: 10px;
     border: 1px;
 }
 
 .contact-card img {
     border-radius: 10px;
-    width: 10vh;
+    width: 8vh;
 }
 
 
