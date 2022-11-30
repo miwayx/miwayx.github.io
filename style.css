@@ -1,5 +1,9 @@
 /* Basic page style */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     height: fit-content;
@@ -7,14 +11,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     color: #eee;
-    background-image: linear-gradient(#251179f2,#2b56bbd9);
+    background-image: linear-gradient(#180e42f2,#10307bd9);
 }
 
 header {
@@ -85,24 +87,6 @@ footer p {
 
 /* Body properties */
 
-#profile-img {
-    margin: 5px;
-    width: 250px;
-    border: 4px solid #ffffff;
-    border-radius: 50%;
-}
-
-section h1 {
-    font-size: 3em;
-    font-family: monospace;
-    text-decoration: underline;
-}
-
-section h2 {
-    font-size: 2.5em;
-    font-family: monospace;
-}
-
 #home {
     padding: 10%;
 }
@@ -119,6 +103,24 @@ section h2 {
 /* #projects {
     padding: 5%;
 } */
+
+#profile-img {
+    margin: 5px;
+    width: 250px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+
+section h1 {
+    font-size: 3em;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-family: monospace;
+}
 
 
 /* Hover */
