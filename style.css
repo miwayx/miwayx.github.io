@@ -71,13 +71,13 @@ header li {
 #h-name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #0238b6d9;
-    margin-left: 10px;
+    margin-left: 5px;
     align-self: center;
 }
 
 #h-cv {
     align-self: center;
-    margin: 10px;
+    margin-right: 5px;
     padding: 10px;
     border: 2px solid #391ea8ab;
     background-color: #391ea8ab;
